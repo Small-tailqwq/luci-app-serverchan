@@ -27,7 +27,7 @@ s.anonymous = true
 a=s:taboption("basic", Flag,"serverchan_enable",translate("启用"))
 a.rmempty = true
 
-a=s:taboption("basic", Value,"sckey",translate('微信推送/新旧共用'), translate("").."<br>旧版调用代码<a href='http://sc.ftqq.com' target='_blank'>点击这里</a><br>调用代码获取<a href='https://sct.ftqq.com/' target='_blank'>点击这里</a><br>")
+a=s:taboption("basic", Value,"sendkey",translate('微信推送/新旧共用'), translate("").."<br>旧版调用代码<a href='http://sc.ftqq.com' target='_blank'>点击这里</a><br>调用代码获取<a href='https://sct.ftqq.com/' target='_blank'>点击这里</a><br>")
 a.rmempty = true
 
 a=s:taboption("basic", Value, "tg_token", translate("TG_token"),translate("").."<br>获取机器人<a href='https://telegram.me/botfather' target='_blank'>点击这里</a><br>新建机器人并拉入群组/频道，填入 token<br>")
